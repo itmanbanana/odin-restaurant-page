@@ -2,7 +2,7 @@ const menuDiv = document.createElement("div");
 const menuHeadingDiv = document.createElement("div");
 menuHeadingDiv.innerHTML = `
     <div class="heading">Our Menu</div>
-    <p>Fresh ingredients. Thoughtful preparation. Unforgettable flavour.</p>
+    <p class="description">Fresh ingredients. Thoughtful preparation. Unforgettable flavour.</p>
 `;
 const menuStartersDiv = document.createElement("div");
 menuStartersDiv.innerHTML = `
@@ -98,7 +98,8 @@ menuDrinksDiv.innerHTML = `
 `;
 const menuAllergyDiv = document.createElement("div");
 menuAllergyDiv.innerHTML = `
-<p><i>Please inform your server of any allergies or dietary restrictions. 
+<br>
+<p class="description"><i>Please inform your server of any allergies or dietary restrictions. 
 Vegetarian and gluten-free options available upon request.</i></p>
 `;
 menuDiv.appendChild(menuHeadingDiv);

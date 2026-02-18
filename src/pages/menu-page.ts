@@ -3,7 +3,7 @@ const menuDiv = document.createElement("div") as HTMLDivElement;
 const menuHeadingDiv = document.createElement("div") as HTMLDivElement;
 menuHeadingDiv.innerHTML = `
     <div class="heading">Our Menu</div>
-    <p>Fresh ingredients. Thoughtful preparation. Unforgettable flavour.</p>
+    <p class="description">Fresh ingredients. Thoughtful preparation. Unforgettable flavour.</p>
 `;
 
 const menuStartersDiv = document.createElement("div") as HTMLDivElement;
@@ -105,7 +105,8 @@ menuDrinksDiv.innerHTML = `
 
 const menuAllergyDiv = document.createElement("div") as HTMLDivElement;
 menuAllergyDiv.innerHTML = `
-<p><i>Please inform your server of any allergies or dietary restrictions. 
+<br>
+<p class="description"><i>Please inform your server of any allergies or dietary restrictions. 
 Vegetarian and gluten-free options available upon request.</i></p>
 `;
 
